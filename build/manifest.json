@@ -1,0 +1,25 @@
+{
+  "short_name": "tecwebcod",
+  "name": "Tecwebcod",
+  "icons": [
+    {
+      "src": "https://tecwebcod.netlify.app/Logotecweb.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://tecwebcod.netlify.app/Logotecweb.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://tecwebcod.netlify.app/Logotecweb.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1e1e1e",
+  "background_color": "#ffffff"
+}

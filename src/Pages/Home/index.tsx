@@ -295,7 +295,7 @@ const Home = () => {
             </h2>
 
             <h2>Whatsapp</h2>
-            <p>(11) 95361-3600</p>
+            <p>(11) 91301-6127</p>
             <h2>Email</h2>
             <p>tecwebcod@gmail.com</p>
 

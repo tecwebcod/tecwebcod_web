@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12137407.css",
+    "main.js": "/static/js/main.202c358b.js",
+    "static/media/banner contato.jpg": "/static/media/banner contato.3e40b2b370eb2712eb46.jpg",
+    "static/media/backgroundtecweb.png": "/static/media/backgroundtecweb.f9d13767c80a1dbff553.png",
+    "static/media/eu.jpeg": "/static/media/eu.182e7f22a93a2dcfbb01.jpeg",
+    "static/media/ilustracao.png": "/static/media/ilustracao.bce339e5e157f7ab51d5.png",
+    "static/media/vin.webp": "/static/media/vin.a403028ff18de691db04.webp",
+    "static/media/casauni.jpeg": "/static/media/casauni.196c7812bbe6724cc6c6.jpeg",
+    "static/media/gab.webp": "/static/media/gab.1d2ea1a7548743fbe460.webp",
+    "static/media/jdc.jpeg": "/static/media/jdc.c6f6faea34217d2f1e0b.jpeg",
+    "static/media/react.png": "/static/media/react.d70bd4bd4f233d8d6042.png",
+    "static/media/3.jpeg": "/static/media/3.34183ccac1d72d12a225.jpeg",
+    "static/media/2.jpeg": "/static/media/2.e36a0a0c518161e3ef7b.jpeg",
+    "static/media/4.jpeg": "/static/media/4.bf4fdac627b9395f9978.jpeg",
+    "static/media/selva.jpeg": "/static/media/selva.a1048134b6bc17eca9fa.jpeg",
+    "static/media/Logotecweb.png": "/static/media/Logotecweb.b378ed798dbaf6d80b10.png",
+    "static/media/blac.png": "/static/media/blac.271ca4368c0ea586f022.png",
+    "index.html": "/index.html",
+    "main.12137407.css.map": "/static/css/main.12137407.css.map",
+    "main.202c358b.js.map": "/static/js/main.202c358b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12137407.css",
+    "static/js/main.202c358b.js"
+  ]
+}
