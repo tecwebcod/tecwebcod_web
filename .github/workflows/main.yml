@@ -1,0 +1,23 @@
+name: Deploy to Google Cloud Storage
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Deploy to GCS
+      env:
+        GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+        GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        BUCKET_NAME: 'tecwebcod'
+      run: |
+       echo "$GCP_SA_KEY" | base64 --decode > gcp-sa.json
+       gcloud auth activate-service-account --key-file gcp-sa.json
+       gsutil -m cp -r ./build/* gs://$BUCKET_NAME/
