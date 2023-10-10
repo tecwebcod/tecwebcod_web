@@ -18,6 +18,5 @@ jobs:
         GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         BUCKET_NAME: 'tecwebcod'
       run: |
-       echo "$GCP_SA_KEY" | base64 --decode > gcp-sa.json
        gcloud auth activate-service-account --key-file gcp-sa.json
        gsutil -m cp -r ./build/* gs://$BUCKET_NAME/
